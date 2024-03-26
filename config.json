@@ -1,0 +1,253 @@
+{
+    "token":"BOT TOKEN GOES HERE",
+    "predefined_feeds": {
+        "ISFL": {
+            "Media": {
+                "Graphics": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=40&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":frame_photo:  | New Graphics!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "MediaPost": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=37&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":writing_hand:  | New Media!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "PressConference": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=105&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New Press Conference!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "Podcast": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=290&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New Podcast!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "PodcastQuestions": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=261&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":question:  | {author} is looking for Podcast Questions!",
+                    "description_template": "**[{entry_title}]({entry_link})**\n{entry_summary}"
+                }
+            },
+            "Announcements": {
+                "HOAnnounce": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=230&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New Head Office Announcement!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "GMAnnounce": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=166&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New GM Announcement!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "DeptAnnounce": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=493&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New Department Announcement!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "Schedules": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=506&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":calendar_spiral:   | New Schedule Released!",
+                    "description_template": "**[{entry_title}]({entry_link})**\n{entry_summary}"
+                }
+            },
+            "TPE": {
+                "PointTasks": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=92&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":chart_with_upwards_trend: | New Point Task!",
+                    "description_template": "**[{entry_title}]({entry_link})**"
+                },
+                "ActivityChecks": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=51&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":white_check_mark:   | New Activity Check!",
+                    "description_template": "**[{entry_title}]({entry_link})**"
+                },
+                "TrainingCamp": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=52&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":person_lifting_weights:   | New Training Camp!",
+                    "description_template": "**[{entry_title}]({entry_link})**"
+                }
+            },
+            "Budget": {
+                "Trade": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=152&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":arrows_clockwise: | NEW TRADE",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "Signing": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=159&limit=15",
+                    "color": "#0000FF",
+                    "title_template": ":pen_fountain: | NEW SIGNING",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "FreeAgentList": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=43&limit=15",
+                    "color": "#0000FF",
+                    "title_template": ":pen_fountain: | NEW FREE AGENT LIST",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "Retirements": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=30&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":skull: | NEW RETIREMENT",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                }
+            },
+            "Jobs": {
+                "JobPost": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=226&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":moneybag:  | New Job Posting!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                }
+            },
+            "NewCreate": {
+                "CreationPost": {
+                    "url": "https://forums.sim-football.com/syndication.php?fid=29&limit=15",
+                    "color": "#0000FF",
+                    "title_template": ":alarm_clock:  | New Create Alert!",
+                    "description_template": "**[{entry_title}]({entry_link})**"
+                }
+            }
+        },
+        "SHL": {
+            "Media": {
+                "GraphicsSubmissions": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=274&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":frame_photo:  | New Graphics!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "Videos": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=651&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":tv:   | New Video!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "MediaPosts": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=46&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":writing_hand:  | New Media!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "DeepDive": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=432&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":writing_hand:  | New Deep Dive!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "JuniorMediaPosts": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=48&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":writing_hand:  | New Juniors Media!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                }
+            },
+            "TPE": {
+                "MajorsPointTasks": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=45&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":chart_with_upwards_trend: | New Point Task!",
+                    "description_template": "**[{entry_title}]({entry_link})**"
+                },
+                "MinorsPointTasks": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=66&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":chart_with_upwards_trend: | New Juniors Point Task!",
+                    "description_template": "**[{entry_title}]({entry_link})**"
+                }
+            },
+            "Budget": {
+                "MajorsTransactions": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=224&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":arrows_clockwise: | NEW TRANSACTION",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "MinorsTransactions": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=330&limit=15",
+                    "color": "#0000FF",
+                    "title_template": ":arrows_clockwise: | NEW TRANSACTION",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                }
+            },
+            "Announcements": {
+                "MajorsAnnounce": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=27&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New SHL Announcement!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "MinorsAnnounce": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=26&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New SMJHL Announcement!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "MajorsAwards": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=31&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":trophy:  | New SHL Awards!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "MinorsAwards": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=38&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":trophy:  | New SMJHL Awards!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "Announce": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=24&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New Announcement!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "Punishment": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=226&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":no_entry_sign:   | New Punishment/Suspension",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "PortalAnnounce": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=766&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":newspaper:  | New Portal Announcement!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "HOF": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=563&limit=15",
+                    "color": "#FF0000",
+                    "title_template": "<:HoF:1207844983403577354>  | New Hall of Fame Ceremony!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                },
+                "HOFPlayers": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=28&limit=15",
+                    "color": "#FF0000",
+                    "title_template": "<:HoF:1207844983403577354>  | New Hall of Fame Inductee!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                }
+            },
+            "Jobs": {
+                "JobPost": {
+                    "url": "https://simulationhockey.com/syndication.php?fid=388&limit=15",
+                    "color": "#FF0000",
+                    "title_template": ":moneybag:  | New Job Posting!",
+                    "description_template": "**[{entry_title}]({entry_link})** by *{author}*\n{entry_summary}"
+                }
+            }
+        }
+    }
+}
